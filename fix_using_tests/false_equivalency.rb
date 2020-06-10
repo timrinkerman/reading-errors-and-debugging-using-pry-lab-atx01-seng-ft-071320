@@ -12,10 +12,8 @@ end
 
 def selection(num)
   if num = 1.to_s
-     binding.pry
      "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2.to_s
-     binding.pry
      "HAM HAM HAM IN MY TUMMY"
   end
 end
