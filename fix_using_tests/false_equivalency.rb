@@ -12,9 +12,9 @@ end
 
 def selection(num)
   if num = 1
-     selection ="YUM YUM MUNCH MUNCH MUNCH"
+     return "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
-     selection = "HAM HAM HAM IN MY TUMMY"
+     return "HAM HAM HAM IN MY TUMMY"
   end
 end
 
