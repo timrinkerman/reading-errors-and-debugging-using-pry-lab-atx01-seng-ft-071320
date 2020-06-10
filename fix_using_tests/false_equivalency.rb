@@ -15,6 +15,8 @@ def selection(num)
      selection ="YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
      selection = "HAM HAM HAM IN MY TUMMY"
+      binding.pry
+      hello world
   end
 end
 
