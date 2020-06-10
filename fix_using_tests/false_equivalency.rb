@@ -8,15 +8,13 @@ def prompt_user
   puts "What would you like to do?"
   puts "1.) Eat a hamburger."
   puts "2.) Eat a ham."
-  binding.pry
-  puts "hey"
 end
 
 def selection(num)
   if num = 1
-     return "YUM YUM MUNCH MUNCH MUNCH"
+     selection(1) = "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
-     return "HAM HAM HAM IN MY TUMMY"
+     selection(2) = "HAM HAM HAM IN MY TUMMY"
   end
 end
 
