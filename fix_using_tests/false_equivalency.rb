@@ -16,7 +16,7 @@ def selection(num)
   elsif num = 2
      selection = "HAM HAM HAM IN MY TUMMY"
       binding.pry
-      hello world
+      puts "hello world"
   end
 end
 
