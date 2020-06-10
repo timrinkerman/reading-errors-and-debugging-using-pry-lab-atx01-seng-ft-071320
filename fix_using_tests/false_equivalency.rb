@@ -11,10 +11,10 @@ def prompt_user
 end
 
 def selection(num)
-  if num = 1
-     selection(1) = "YUM YUM MUNCH MUNCH MUNCH"
-  elsif num = 2
-     selection(2) = "HAM HAM HAM IN MY TUMMY"
+  if num == 1
+      puts "YUM YUM MUNCH MUNCH MUNCH"
+  elsif num == 2
+     puts "HAM HAM HAM IN MY TUMMY"
   end
 end
 
