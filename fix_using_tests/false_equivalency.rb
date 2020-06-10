@@ -13,12 +13,9 @@ end
 def selection(num)
   if num = 1
      selection ="YUM YUM MUNCH MUNCH MUNCH"
-      binding.pry
   elsif num = 2
      selection = "HAM HAM HAM IN MY TUMMY"
   end
-  binding.pry
-  puts "hello World"
 end
 
 def runner
